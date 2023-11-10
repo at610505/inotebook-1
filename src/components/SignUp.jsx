@@ -6,7 +6,7 @@ import Form from 'react-bootstrap/Form';
 function SignUp(props) {
 
   const [user,setUser] = useState({fullName:"",email:"",password:""});
-  const Host = "http://localhost:5000";
+  const Host = "https://inotebook-backend-h775.onrender.com";
   const navigate = useNavigate();
 
   const handleSignUp = async (e) => {

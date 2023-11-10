@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const Login = (props) => {
 
   const [credentials,setCredentials] = useState({email:"",password:""});
-  const Host = "http://localhost:5000";
+  const Host = "https://inotebook-backend-h775.onrender.com";
   const navigate = useNavigate();
 
   const handleLogin = async (e) => {
